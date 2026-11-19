@@ -75,7 +75,7 @@ The agent navigates the web through human-like interactions—utilizing Bézier 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/c1nnam0nbun/website-auditor
    cd scraper
    ```
 
