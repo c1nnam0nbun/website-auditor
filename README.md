@@ -174,7 +174,7 @@ Run the CLI using `uv run scraper` or directly via `scraper` (if installed in th
 ### Syntax
 
 ```bash
-uv run scraper [OPTIONS]
+uv run scraper --url <url> --workdir <workdir>
 ```
 
 ### Options Reference
