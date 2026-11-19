@@ -119,7 +119,7 @@ The application reads a JSON configuration file specifying the AI agent provider
 | Field | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `provider` | `string` | **Yes** | The agent CLI provider to use. Must be either `"antigravity"` (for AGY) or `"claude"` (for Claude Code). |
-| `model` | `string` | No | Specific model identifier to pass to the CLI (e.g. `gemini-3.8-flash` or `dots-studio/dots-3-note-preview:free`). |
+| `model` | `string` | No | Specific model identifier to pass to the CLI (e.g. `gemini-3.8-flash` or `claude-sonnet-5-5`). |
 | `effort` | `string` | No | Reasoning/thinking effort level. Defaults to `"medium"`. |
 | `env` | `object` | No | Key-value pairs of environment variables injected into the agent CLI subprocess (e.g., API keys, proxy endpoints, or gateway URLs). |
 
@@ -138,10 +138,8 @@ The application reads a JSON configuration file specifying the AI agent provider
 ```json
 {
   "provider": "claude",
-  "model": "dots-studio/dots-3-note-preview:free",
-  "effort": "medium",
+  "model": "claude-sonnet-5-5",
   "env": {
-    "ANTHROPIC_BASE_URL": "https://api.kilo.ai/api/gateway",
     "ANTHROPIC_AUTH_TOKEN": "",
     "ANTHROPIC_API_KEY": "your-api-key-here"
   }
