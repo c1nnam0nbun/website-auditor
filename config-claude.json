@@ -1,0 +1,9 @@
+{
+    "provider": "claude",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "env": {
+        "ANTHROPIC_BASE_URL": "https://api.kilo.ai/api/gateway",
+        "ANTHROPIC_AUTH_TOKEN": "",
+        "ANTHROPIC_API_KEY": ""
+    }
+}
